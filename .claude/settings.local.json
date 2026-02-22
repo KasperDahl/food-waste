@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /c/code/Github/food-waste && npm install 2>&1)",
+      "Bash(tail:*)",
+      "Bash(npm info @sveltejs/vite-plugin-svelte@5 peerDependencies 2>&1 && npm info @sveltejs/vite-plugin-svelte@6 peerDependencies 2>&1)",
+      "Bash(cd /c/code/Github/food-waste && npm run build 2>&1)"
+    ]
+  }
+}
